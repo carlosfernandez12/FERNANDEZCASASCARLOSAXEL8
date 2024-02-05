@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            border: 10px solid rgb(221, 0, 255);
+        }
+        h1{
+            font-size: 60px;
+        }
+        h2{
+            font-size: 30px;
+        }
+        button{
+            background-color: black;
+            border-color: rgb(221, 0, 255);
+            color : rgb(221, 0, 255);
+        }
+    </style>
+    <script src="10_algoritmos.js "></script>
+</head>
+<body>
+    <header>
+        <h1>Tarea 3</h1>
+    </header>
+    <main>
+        <h2>Carrito de compra</h2>
+        <form action="">
+
+            <label for="producto1">Producto : $ 100 c/u Cantidad : </label>
+            <select name="producto1" id="producto1">
+                <option value="0">Nada</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            <br>
+            <br>
+            <label for="producto2">Producto2 : $ 200 c/u Cantidad :</label>
+            <select name="producto2" id="producto2">
+                <option value="0">Nada</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+        </form>
+        <p>Total de la compra : (presiona el boton)</p>
+        <br>
+        <button onclick="tarea3()">Ticket</button>
+    </main>
+</body>
+</html>

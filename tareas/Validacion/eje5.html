@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(255, 0, 0);
+            border: 5px solid black;
+            color: rgb(0, 0, 0);
+        }
+        h1{
+            font-size: 60px;
+        }
+        main input{
+            background-color: black;
+            color: rgb(0, 0, 0);
+            border-color: rgb(0, 0, 0);
+        }
+        button{
+            background-color: black;
+            border-color: cyan;
+            color: cyan;
+        }
+    </style>
+    <script src="10_algoritmos.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Tarea 5</h1>
+    </header>
+    <main>
+        <p>Contar porcentaje de mujeres y hombres de un grupo</p>
+        <form action="/" method="post">
+            <label for="hombres">Hombre</label>
+            <input type="text" name="hombres" id="hombres">
+            <br>
+            <br>
+            <label for="mujeres">Mujeres</label>
+            <input type="text" name="mujeres" id="mujeres">
+            <br>
+            <br>
+            <button onclick="tarea5()">Calcular</button>
+        </form>
+    </main>
+    
+</body>
+</html>

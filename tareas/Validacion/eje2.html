@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejericio 1 </title>
+    <script src="10_algoritmos.js"></script>
+    <style>
+        body{
+            background-color: black;
+            color: rgb(247, 145, 20);
+            border: 10px solid rgb(247, 20, 20);
+        }
+        header h1{
+            font-size: 80px;
+            text-align: center;
+        }
+        .mi_div{
+            position: absolute;
+            top: 230px;
+            left: 580px;
+            font-size: 35px;
+        }
+        .campo{
+            background-color: black;
+            color: rgb(247, 145, 20);
+            border-color: rgb(247, 145, 20);
+            width: 180px;
+            height: 25px;
+        }
+        .mi_div button{
+            background-color: black;
+            color: rgb(247, 145, 20);
+            border-color: rgb(247, 145, 20);
+            position: absolute;
+            top: 350px;
+            left: 120px;
+            width: 80px;
+            height: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Tarea 2</h1>
+    </header>
+    <main>
+        <div class="mi_div">
+            <h2>Sueldo fijo = $1000</h2>
+            <h2>Comision = %10 de tu sueldo </h2>
+            <form action="/" method="post">
+                <label for="dinero">Ventas : </label>
+                <input type="text" name="dinero" id="dinero" title="dinero" placeholder=""Example : 1000 class="campo">
+                <br>
+                <button onclick="tarea2()">Calcular</button>
+            </form>
+        </div>
+    </main>
+    
+</body>
+</html>
