@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            background-color: black;
+            color: antiquewhite;
+            border: 10px solid rgb(68, 255, 35);
+            text-align: center;
+        }
+        .tablita{
+            border: 5px solid blueviolet;
+            color: rgb(24, 255, 24);
+        }
+        .cal{
+            background-color: black;
+            color: blueviolet;
+            border: 5px solid rgb(24, 255, 24);
+        }
+        .letras{
+            color:blueviolet ;
+        }
+        .bor{
+            background-color: black;
+            color: blueviolet;
+            border: 5px solid rgb(24, 255, 24);
+        }
+        por{
+            background-color: black;
+            color: blueviolet;
+            border: 5px solid rgb(24, 255, 24);
+        }
+        .tit{
+            border: 1px solid rgb(24, 255, 24);
+            
+        }
+
+
+    </style>
+    <script src="validaciones.js"></script>
+</head>
+<body class="letras">
+    <h1 class="tit">HOLA BIENVENIDO AL PROGRAMA!</h1>
+    <label class="capi" for="capital">Capital : </label>
+    <input class="bor"  type="text" name="capital" id="capital" placeholder="numeros">
+    <span id="mensaje" style="color: red;"></span>
+    <br>
+    <br>
+    <label for="porcentaje">Porcentaje : </label>
+    <select name="porcentaje" id="porcentaje">
+        <option class="por" value="29">%29</option>
+    </select>
+    <br>
+    <br>
+    <label for="dias">Días : </label>
+    <select name="dias" id="dias">
+        <option value="26">26</option>
+        <option value="50">50</option>
+        <option value="102">102</option>
+    </select>
+    <br>
+    <br>
+    <button class="cal" id="boton">Calcular</button>
+    <br>
+
+    <!-- Agrega una tabla para mostrar los resultados -->
+    <table class="tablita" border="1">
+        <thead>
+            <tr>
+                <th>Día</th>
+                <th>Resultado</th>
+            </tr>
+        </thead>
+        <tbody id="tablaResultados"></tbody>
+    </table>
+
+    <br>
+    <span id="Resultados"></span>
+
+    <script>
+        // TODO tu código JavaScript aquí
+    </script>
+</body>
+</html>
