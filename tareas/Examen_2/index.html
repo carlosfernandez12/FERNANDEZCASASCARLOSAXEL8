@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Examen</title>
+  <style>
+    body {
+      background-color: black;
+      color: rgb(7, 253, 151);
+    }
+
+    #titulo {
+      text-align: center;
+      font-size: 50px;
+
+    }
+    #mi_div{
+      position: absolute;
+      top: 250px;
+      left: 800px;
+    }
+    .opciones{
+      background-color: black;
+      color:rgb(255, 255, 255) ;
+      border-color: rgb(206, 84, 215);
+    }
+    #mi_div2{
+      position: absolute;
+      top: 180px;
+      left:290px;
+    }
+    #trono{
+      border: 5px solid violet;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+<div id="trono">
+  <h1 id="titulo">EXAMEN</h1>
+  <h3 id="tiyno">CARLOS AXEL FERNANDEZ CASAS Y KEVIN ARIAM MUÑIZ LEYVA</h3>
+</div>
+  
+
+  <br>
+  <br>
+  <br>
+
+  <div id="mi_div2">
+    <img src="dinero-05.gif" alt="imagen" width="500px" id="imagen">
+  </div>
+
+  <div id="mi_div">
+
+    <label for="amount">Monton:</label>
+    <input id="amount" placeholder="Ingrese la cantidad" class="opciones">
+    <span style="color: red;" id="span1"></span>
+
+    <br>
+    <br>
+
+    <label for="fromCurrency">Divisa principal:</label>
+    <select id="fromCurrency" class="opciones">
+      <option value="USD">Dólares estadounidenses (USD)</option>
+      <option value="EUR">Euros (EUR)</option>
+      <option value="GBP">Libras Esterlinas (GBP)</option>
+      <option value="JPY">Yenes Japoneses (JPY)</option>
+    </select>
+
+    <br>
+    <br>
+
+    <label for="toCurrency">Divisa de cambio </label>
+    <select id="toCurrency" class="opciones">
+      <option value="USD">Dólares estadounidenses (USD)</option>
+      <option value="EUR">Euros (EUR)</option>
+      <option value="GBP">Libras Esterlinas (GBP)</option>
+      <option value="JPY">Yenes Japoneses (JPY)</option>
+    </select>
+
+    <br>
+    <br>
+
+    <button id="boton" class="opciones">Convertidor de divisa</button>
+
+    <p id="resultado"></p>
+
+    <script src="divisa.js"></script>
+
+  </div>
+
+</body>
+
+</html>
