@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen</title>
+    <style>
+        html{
+            background-color: black;
+        }
+        
+        #cabecera{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            background-color: rgb(35, 234, 121);
+            width: 100%;
+            height: 20%;
+        }
+        #barra{
+            position: absolute;
+            top: 40%;
+            left: 77%;
+        }
+
+        #promociones{
+            position: absolute; 
+            top: 25%;
+            left: 32%;
+            width: 55%;
+            
+        }
+        #carrito{
+            position: absolute;
+            top: 70%;
+            left: 13%;
+            width: 85%;
+            height: 85%;
+            border-color: black;
+            display: none;     
+        }
+        #titulo{
+            position: absolute;
+            top: 10%;
+            left: 5%;
+            background-color: rgb(0, 128, 239);
+            width: 90%;
+            height: 15%;
+            border-color: black;
+        }
+        #productos{
+            position: absolute;
+            top: 30%;
+            left: 5%;
+            background-color: aliceblue;
+            width: 90%;
+            height: 35%;
+            border-color: black;
+        }
+        #imagenes{
+            position: absolute;
+            top: 70%;
+            left: 13%;
+            width: 85%;
+            height: 255%;
+        }
+        #imagen1{
+            position: absolute;
+            top: 10%;
+            left: 20%;
+        }
+        #imagen2{
+            position: absolute;
+            top: 10%;
+            left: 55%;
+        }
+        #imagen3{
+            position: absolute;
+            top: 36%;
+            left: 20%;
+        }
+        #imagen4{
+            position: absolute;
+            top: 36%;
+            left: 55%;
+        }
+        #imagen5{
+            position: absolute;
+            top: 75%;
+            left: 35%;
+        }
+    </style>
+    <script src="main.js"></script>
+</head>
+<body>
+
+    <header>
+        <div id="cabecera">
+            <h1 style="color: black"">TIENDA DE MONAS</h1>
+            <h4 style="color: black">Fernandez casas carlos axel, muñiz leyva kevin ariam y gutierrez juarez cristian</h4>
+            <div id="barra">
+                <input type="text" id="barra_buscadora">
+                <button id="boton">Presioname</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <section>
+            <div id="imagenes">
+
+                <div id="imagen1">
+                    <img src="goku.jpg" alt="" width="250px" id="imagen1_1">
+                    <br>
+                    <h3 style="color: rgb(213, 7, 203);"><s>$1900 Mxn</s></h3>
+                    <h3 style="color: red;">$1000Mxn</h3>
+                    <button id="Carrito1" class="carrito">Carrito</button>
+                    <button id="Comprar1" class="comprar">Comprar</button>
+                </div>
+
+                <div id="imagen2">
+                    <img src="somali.jpg" alt="" width="250px" id="imagen2_2">
+                    <br>
+                    <h3 style="color: rgb(213, 7, 203);"><s>$1900 Mxn</s></h3>
+                    <h3 style="color: red;">$1000 Mxn</h3>
+                    <button id="Carrito2" class="carrito">Carrito</button>
+                    <button id="Comprar2" class="comprar">Comprar</button>
+                </div>
+
+                <div id="imagen3">
+                    <img src="naruto.jpg" alt="" width="250px" id="imagen3_3">
+                    <br>
+                    <h3 style="color: rgb(213, 7, 203);"><s>$1200 Mxn</s></h3>
+                    <h3 style="color: red;">$850 Mxn</h3>
+                    <button id="Carrito3" class="carrito">Carrito</button>
+                    <button id="Comprar3" class="comprar">Comprar</button>
+                </div>
+
+                <div id="imagen4">
+                    <img src="commi.jpeg" alt="" width="250px" id="imagen4_4">
+                    <br>
+                    <h3 style="color: rgb(213, 7, 203);"><s>$1000 Mxn</s></h3>
+                    <h3 style="color: red;">$650 Mxn</h3>
+                    <button id="Carrito4" class="carrito">Carrito</button>
+                    <button id="Comprar4" class="comprar">Comprar</button>
+                </div>
+
+                <div id="imagen5">
+                    <img src="death.jpeg" alt="" width="250px" id="imagen5_5">
+                    <br>
+                    <h3 style="color: rgb(213, 7, 203);"><s>$500Mxn</s></h3>
+                    <h3 style="color: red;">$250 Mxn</h3>
+                    <button id="Carrito5" class="carrito">Carrito</button>
+                    <button id="Comprar5" class="comprar">Comprar</button>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div id="carrito">
+                <div id="titulo">
+                        <h1>GRACIAS POR TU COMPRA</h1>
+                </div>
+                <div id="productos">
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+    
+</body>
+</html>
